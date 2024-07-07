@@ -1,0 +1,4 @@
+{
+  "https://unpkg.com/threejs-toys@0.0.8/build/threejs-toys.module.cdn.min.js": { "integrity": "sha512-0ffiFu7n7XrvBXYfyIwpMzc3dmldSiAiXN7CuBGVMoQq22TrLGVRzGxbcX3AzcRiiQGY9HPaaEaYYvTuqS6Drw==", "contentType": "application/javascript; charset=utf-8" },
+  "version": 1
+}
