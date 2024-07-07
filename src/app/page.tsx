@@ -1,6 +1,4 @@
-import Image from "next/image";
 import styles from "./page.module.css";
-import Page from "@/app/pages/neon/page";
 import Link from "next/link";
 
 export default function Home() {
