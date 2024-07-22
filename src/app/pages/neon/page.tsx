@@ -4,7 +4,6 @@ import styles from '@/app/pages/neon/neon.module.css'
 // @ts-ignore
 import { neonCursor } from 'threejs-toys'
 
-
 const Page = () => {
     useEffect(() => {
         neonCursor({
