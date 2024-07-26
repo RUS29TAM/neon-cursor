@@ -15,11 +15,14 @@ const Page = () => {
     return (
         <div>
             <div className={`${styles.container} ${isDarkTheme ? styles.darkTheme : styles.lightTheme}`}>
-                <div className={`${styles.components} ${isDarkTheme ? styles.darkTheme : styles.lightTheme}`}>
-                    <div className={`${styles.checkbox}`}>
+                <div className={`${styles.components} ${isDarkTheme ? styles.darkThemeComponents : styles.lightTheme}`}>
+                    <div className={`${styles.text} ${isDarkTheme ? styles.darkThemeText : styles.lightThemeText}`}>
+                        <h1>123456</h1>
+                    </div>
+                    <div className={`${styles.checkbox} `}>
                         <div className={`${styles.checkbox__1}`}>
                             <input onChange={handleButtonClick} className={`${styles.input}`} id="checkbox-1" type="checkbox"/>
-                            <label className={`${styles.label}`} htmlFor="checkbox-1">
+                            <label className={`${styles.label} ${isDarkTheme ? styles.darkThemeLabel : styles.lightThemeText}`} htmlFor="checkbox-1">
                                 <FaCheck/></label>
                         </div>
                     </div>
