@@ -24,7 +24,7 @@ const Page = () => {
         <div className={styles.app} id="app">
             <div id="hero">
                 <h1 className={styles.h1}>RUS29TAM<br/>NEXT</h1>
-                <a className={styles.a} target="_blank" href="##">@RUS29TAM</a>
+                <a className={styles.a} target="_blank" href="/">@RUS29TAM</a>
             </div>
         </div>
     );
