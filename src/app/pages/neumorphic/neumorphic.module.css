@@ -27,13 +27,14 @@
     align-items: center;
     font-family: 'Poppins', sans-serif;
     background: var(--greyLight-1);
+    user-select: none
 }
 
 .components {
     position: relative;
     width: 90vw;
     height: 90vh;
-    border-radius: 3rem;
+    border-radius: 1rem;
     box-shadow: 0.8rem 0.8rem 1.4rem var(--greyLight-2), -0.2rem -0.2rem 1.8rem var(--white);
     padding: 4rem;
 }
@@ -46,9 +47,10 @@
     width: 100%;
     color: #1f1f1f;
     height: 10%;
-    border-radius: 3rem;
+    border-radius: 1rem;
     padding: 4rem;
     box-shadow: var(--inner-shadow);
+
 }
 
 .checkbox {
@@ -73,7 +75,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 1.5rem;
+    border-radius: 1rem;
     width: 12.8rem;
     height: 12.8rem;
 }
