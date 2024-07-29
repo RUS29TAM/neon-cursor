@@ -21,7 +21,7 @@ const Page = () => {
                     </div>
                     <div className={`${styles.checkbox} `}>
                         <div className={`${styles.checkbox__1}`}>
-                            <input onChange={handleButtonClick} className={`${styles.input}`} id="checkbox-1" type="checkbox"/>
+                            <input onChange={handleButtonClick} className={`${styles.input} ${isDarkTheme ? styles.darkThemeInput : styles.lightThemeInput}`} id="checkbox-1" type="checkbox"/>
                             <label className={`${styles.label} ${isDarkTheme ? styles.darkThemeLabel : styles.lightThemeText}`} htmlFor="checkbox-1">
                                 <FaCheck/></label>
                         </div>
